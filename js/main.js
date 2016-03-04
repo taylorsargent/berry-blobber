@@ -44,21 +44,21 @@ var writeBerries = function (Berries) {
     document.write('<dt>Grows on a shrub?</dt>');
 
     if (berry.onShrub) {
-        document.write('Yes');
-      } else {
-        document.write('No');
-      }
+      document.write('Yes');
+    } else {
+      document.write('No');
+    }
 
     document.write('<dl>');
 
     document.write('<dt>Energy</dt>');
-    document.write('<dd>' + berry.energy + ' ' + 'kJ' + '</dd>');
+    document.write('<dd>' + berry.energy + '</dd>');
 
     document.write('<dt>Carbohydrates</dt>');
-    document.write('<dd>' + berry.carbs + ' ' + 'g' + '</dd>');
+    document.write('<dd>' + berry.carbs + '</dd>');
 
     document.write('<dt>Protein</dt>');
-    document.write('<dd>' + berry.protein + ' ' + 'g' + '</dd>');
+    document.write('<dd>' + berry.protein + '</dd>');
 
     document.write('</dl>');
   });
