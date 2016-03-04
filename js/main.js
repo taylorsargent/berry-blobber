@@ -52,13 +52,13 @@ var writeBerries = function (Berries) {
     document.write('<dl>');
 
     document.write('<dt>Energy</dt>');
-    document.write('<dd><i>' + berry.latin + '</i></dd>');
+    document.write('<dd>' + berry.energy + ' ' + 'kJ' + '</dd>');
 
     document.write('<dt>Carbohydrates</dt>');
-    document.write('<dd><i>' + berry.latin + '</i></dd>');
+    document.write('<dd>' + berry.carbs + ' ' + 'g' + '</dd>');
 
     document.write('<dt>Protein</dt>');
-    document.write('<dd><i>' + berry.latin + '</i></dd>');
+    document.write('<dd>' + berry.protein + ' ' + 'g' + '</dd>');
 
     document.write('</dl>');
   });
